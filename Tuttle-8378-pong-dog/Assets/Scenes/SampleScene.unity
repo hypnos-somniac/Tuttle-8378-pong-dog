@@ -1584,6 +1584,72 @@ Transform:
   - {fileID: 268361574}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2142719124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6739824116373656450, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_Name
+      value: Paddle1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7003043276408503852, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"UpS","value":{"$content":"w","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DownS","value":{"$content":"s","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ups2","value":{"$content":"w","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"downs2","value":{"$content":"s","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.7700105
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
 --- !u!1001 &5972221921428540752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1596,9 +1662,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paddle1
       objectReference: {fileID: 0}
+    - target: {fileID: 7003043276408503852, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"UpS","value":{"$content":"i","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DownS","value":{"$content":"k","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29
+      value: 28.15
       objectReference: {fileID: 0}
     - target: {fileID: 8484251681765005824, guid: d8efa1d76f6971d478a346f03259d578, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1651,3 +1724,4 @@ SceneRoots:
   - {fileID: 1692680032}
   - {fileID: 872717383}
   - {fileID: 5972221921428540752}
+  - {fileID: 2142719124}
